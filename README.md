@@ -63,3 +63,9 @@ Dependencies for Project generator
  * [Jinja2](https://pypi.python.org/pypi/Jinja2)
  * [xmltodict](https://pypi.python.org/pypi/xmltodict)
  * [project generator definitions](https://pypi.python.org/pypi/project_generator_definitions)
+ 
+ ##### Contributors
+  1. Shrejal Singh
+  2. Aaquib Ali
+  3. Ekta Arora
+  4. Ruthvik Arora
