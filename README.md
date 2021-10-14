@@ -1,6 +1,9 @@
-# Project generator
-[![Build Status](https://travis-ci.org/project-generator/project_generator.svg?branch=master)](https://travis-ci.org/project-generator/project_generator)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/84700316/137258015-fb870dd6-844c-453d-a5bd-686bedd7a858.png" width=200px>
+ </p>
 
+ <h1 align="center"> Project generator </h1>
+ 
 Source code is often times simple but building it is difficult when more than one person is involved.
 Developers like what they like: IDE, compiler, debugger and really all we want is to produce an executable.
 Sharing project files decoding XML in commit messages because someone was debugging and changed compile options before commiting distracts from doing what you want to do; develop software.
@@ -40,14 +43,10 @@ Once installed, test if project_generator is recognized:
 progen --version
 ```
 
-This should print the current installed version. You can use progen or project_generator as a command.
+This should print the current installed version. You can use progen or project-generator as a command.
 
 ##### Using directly the repository
 In case of using this repository directly, be aware, the project generator is using relative paths. To solve this, invoke run.py with arguments as you would if using the package. Something like: python run.py --version. This helps with debugging the package.
-
-##### Getting started
-
-An example how to use progen [baremetal blinky examples](https://github.com/project-generator/project_generator_frdm_boards_example) or more advanced [mbed blinky examples](https://github.com/project-generator/project_generator_mbed_examples).
 
 ###### Docs
 To get familiar with it, read our wiki. Good start is [Getting started guide (wiki)](https://github.com/project-generator/project_generator/wiki/Getting_started). There are other sections which describe the each blocks of the project generator.
